@@ -52,8 +52,8 @@ jobs:
           echo "U" >> token.txt
       - uses: actions/upload-artifact@v4
         with:
-          name: token
-          path: token.txt
+          name: token2
+          path: token2.txt
 
   splashdown:
     runs-on: ubuntu-latest
