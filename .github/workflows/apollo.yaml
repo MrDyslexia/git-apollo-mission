@@ -61,7 +61,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: token
+          name: token3
       - name: ✅ Verifica token y muestra mensaje lunar
         run: |
           ACTUAL=$(tr -d '/n' token.txt)
