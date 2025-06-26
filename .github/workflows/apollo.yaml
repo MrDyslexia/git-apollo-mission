@@ -64,7 +64,7 @@ jobs:
           name: token
       - name: ✅ Verifica token y muestra mensaje lunar
         run: |
-          ACTUAL=$(cat token.txt)
+          ACTUAL=$(tr -d '/n' token.txt)
           EXPECTED="LUN"
           if [[ "$ACTUAL" == "$EXPECTED" ]]; then
             echo "🌊 4) Splashdown completado"
