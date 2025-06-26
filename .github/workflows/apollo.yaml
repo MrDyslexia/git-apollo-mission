@@ -38,7 +38,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: token3
-          path: token3.txt
+          path: token.txt
 
   transposition_and_docking:
     runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: token2
-          path: token2.txt
+          path: token.txt
 
   splashdown:
     runs-on: ubuntu-latest
