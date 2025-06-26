@@ -37,8 +37,8 @@ jobs:
           echo "N" >> token.txt
       - uses: actions/upload-artifact@v4
         with:
-          name: token
-          path: token.txt
+          name: token3
+          path: token3.txt
 
   transposition_and_docking:
     runs-on: ubuntu-latest
